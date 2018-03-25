@@ -52,4 +52,8 @@
     	</plugins>
     </pluginManagement>
   </build>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>uebung1</module>
+  </modules>
 </project>
