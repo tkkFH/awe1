@@ -1,4 +1,4 @@
-AWE 1 - 2018
+AWE 1 - 2018 - develop-Branch
 ==================
 
-Übungen und Beispiele zum Modul Anwendungsentwicklung 1 (2018)
+Im develop-branch findet die Weiterentwicklung statt.
