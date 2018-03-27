@@ -1,6 +1,6 @@
 package de.fhdw.awe1.uebung2;
 
-import java.time.LocalDateTime;
+
 
 public class HelloWorld {
 
