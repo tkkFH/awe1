@@ -5,13 +5,11 @@ import java.time.LocalDateTime;
 public class HelloWorld {
 
 	public static void main(String[] args) {
-
-		System.out.println("Hallo Welt!");
-		System.out.println("Hallo Welt!");
-		System.out.println("Hallo Welt!");
-		System.out.println("Hallo Welt!");
-		System.out.println("Hallo Welt!");
-
+		if (args == null) {
+			System.out.println("Hallo Welt!");
+		} else {
+			System.out.println("Keine Parameter vorhanden...");
+		}
 	}
 
 }
