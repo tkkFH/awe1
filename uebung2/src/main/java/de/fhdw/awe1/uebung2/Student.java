@@ -2,14 +2,12 @@ package de.fhdw.awe1.uebung2;
 
 import java.time.LocalDate;
 
-import org.apache.commons.lang3.builder.EqualsBuilder;
-import org.apache.commons.lang3.builder.HashCodeBuilder;
-import org.jpatterns.gof.BuilderPattern.Builder;
-
 public class Student {
 
-	private String name;
+	private String name; 
 
+	private String titel; 
+	
 	private String vorname;
 
 	private String matrikelnummer;
