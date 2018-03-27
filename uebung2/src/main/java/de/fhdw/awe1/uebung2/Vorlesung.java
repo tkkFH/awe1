@@ -6,5 +6,5 @@ import java.util.List;
 import com.google.common.collect.Lists;
 
 public class Vorlesung {
-
+  // Hier kommt noch Logik rein
 }
