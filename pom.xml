@@ -6,7 +6,7 @@
 	<packaging>pom</packaging>
 
 	<groupId>fhdw.awe1.2018</groupId>
-	<artifactId>awe1-uebungen</artifactId>
+	<artifactId>awe1</artifactId>
 	<version>DEV</version>
 	<name>Uebungen AWE 1</name>
 	<description>Uebungen zum Modul Anwendungsentwicklung 1 2018 </description>
@@ -20,12 +20,23 @@
 	</properties>
 
 	<modules>
-		<module>uebung1</module>
-		<module>uebung2</module>
+		<module>uebungen</module>
 	</modules>
 
 	<dependencyManagement>
 		<dependencies>
+			<!-- Logging, kein System.out.println mehr -->
+			<dependency>
+				<groupId>commons-logging</groupId>
+				<artifactId>commons-logging</artifactId>
+				<version>1.2</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.logging.log4j</groupId>
+				<artifactId>log4j-core</artifactId>
+				<version>2.10.0</version>
+			</dependency>
+
 			<!-- Nützliche Frameworks für alltägliche Problemstellungen -->
 			<!-- Apache Commons -->
 			<dependency>
