@@ -2,8 +2,10 @@ package de.fhdw.awe1.uebung2;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
+import org.junit.Ignore;
 import org.junit.Test;
 
+@Ignore
 public class StudentTest {
 
 	// Exkurs: TDD (Test driven Development und hamcrest) -> red, green, refactor...

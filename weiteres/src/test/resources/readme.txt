@@ -1,0 +1,1 @@
+Platzhalter damit die Versionsverwaltung leere Verzeichnisse nicht löscht
